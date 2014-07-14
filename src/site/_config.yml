@@ -1,0 +1,3 @@
+name: omnia-test
+exclude: [Gemfile]
+markdown: kramdown

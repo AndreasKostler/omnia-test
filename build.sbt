@@ -7,3 +7,7 @@ libraryDependencies :=
     "org.specs2"     %% "specs2"     % depend.versions.specs,
     "org.scalacheck" %% "scalacheck" % depend.versions.scalacheck
   )
+
+uniform.docSettings("https://github.com/CommBank/omnia-test")
+
+uniform.ghsettings
