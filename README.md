@@ -13,4 +13,4 @@ Utilities around testing.
 Usage
 -----
 
-See https://commbank.github.com.io/omnia-test
+See https://commbank.github.io/omnia-test
