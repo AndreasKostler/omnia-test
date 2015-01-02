@@ -11,8 +11,8 @@ trait TimeArbitrary {
 
   implicit def Function1DateTimeDateTime[A](implicit A: Arbitrary[DateTime]): Arbitrary[DateTime => DateTime] =
     Arbitrary(Gen.frequency[DateTime => DateTime](
-      (1, Gen.value((x: DateTime) => x)),
-      (1, Gen.value((x: DateTime) => x plus 5)),
+      (1, Gen.const((x: DateTime) => x)),
+      (1, Gen.const((x: DateTime) => x plus 5)),
       (3, A.arbitrary.map(a => (_: DateTime) => a))
     ))
 
