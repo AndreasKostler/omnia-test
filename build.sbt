@@ -8,6 +8,8 @@ libraryDependencies :=
     "org.scalacheck" %% "scalacheck" % depend.versions.scalacheck
   )
 
+updateOptions := updateOptions.value.withCachedResolution(true)
+
 uniform.docSettings("https://github.com/CommBank/omnia-test")
 
 uniform.ghsettings
