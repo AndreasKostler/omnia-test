@@ -1,4 +1,4 @@
 name: omnia-test
 exclude: [Gemfile]
 markdown: kramdown
-releaseVersion:  "2.1.0-20140929064159-b41ba90"
+releaseVersion:  "2.1.0-20150102030331-f5f6e78"
